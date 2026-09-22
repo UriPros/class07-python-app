@@ -10,10 +10,10 @@ Use actual output. Replace each blank; do not copy the acceptance text as a resu
 
 ## Step 2 — Run only on pushes to main
 - Commit/run that installed the main-only trigger: https://github.com/UriPros/class07-python-app/actions/runs/35759069602 and the commit `1782bd645b6a4f079572dba547c5390dd1326a28`
-- `trigger-check` branch commit SHA: 8fd5b9b1d872b911cc2cbdc1d9b872df3f41c3c2
-- What the Actions page showed for that branch/SHA:
-- Run URL after the same commit was pushed to `main`:
-- Explain why a local commit alone does not start GitHub Actions:
+- `trigger-check` branch commit SHA: `8fd5b9b1d872b911cc2cbdc1d9b872df3f41c3c2`
+- What the Actions page showed for that branch/SHA: There was no run for the push of `8fd5b9b` to `trigger-check`, the last one was the `step 2`
+- Run URL after the same commit was pushed to `main`: https://github.com/UriPros/class07-python-app/actions/runs/35761612709
+- Explain why a local commit alone does not start GitHub Actions: a commit exists in the local repository until it us pushed. Until the command `git push` is not sent, github does not know that the commit exists
 
 ## Step 3 — Publish and retrieve the Python image
 - Package page URL (GHCR, linked to this repository):
