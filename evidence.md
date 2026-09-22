@@ -5,12 +5,12 @@ Use actual output. Replace each blank; do not copy the acceptance text as a resu
 ## Step 1 — Create the repository and pipeline
 - Repository URL: https://github.com/UriPros/class07-python-app
 - Workflow path: `.github/workflows/ci.yml`
-- First passing run URL and source commit: https://github.com/UriPros/class07-python-app/actions/runs/35757726650 — commit `8dfa6aa679629cbad731e64f54cc19aaa510d8d4`
-- Actual unit-test result: job `test`, step *Source contract*: `Ran 5 tests` — `OK` (same 5 tests passed locally before pushing)
+- First passing run URL and source commit: https://github.com/UriPros/class07-python-app/actions/runs/35757726650 and the commit `8dfa6aa679629cbad731e64f54cc19aaa510d8d4`
+- Actual unit-test result: job `test`, step `Source contract:` `Ran 5 tests` and they all were `OK`
 
 ## Step 2 — Run only on pushes to main
-- Commit/run that installed the main-only trigger:
-- `trigger-check` branch commit SHA:
+- Commit/run that installed the main-only trigger: https://github.com/UriPros/class07-python-app/actions/runs/35759069602 and the commit `1782bd645b6a4f079572dba547c5390dd1326a28`
+- `trigger-check` branch commit SHA: 8fd5b9b1d872b911cc2cbdc1d9b872df3f41c3c2
 - What the Actions page showed for that branch/SHA:
 - Run URL after the same commit was pushed to `main`:
 - Explain why a local commit alone does not start GitHub Actions:
