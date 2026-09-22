@@ -3,10 +3,10 @@
 Use actual output. Replace each blank; do not copy the acceptance text as a result.
 
 ## Step 1 — Create the repository and pipeline
-- Repository URL:
-- Workflow path:
-- First passing run URL and source commit:
-- Actual unit-test result:
+- Repository URL: https://github.com/UriPros/class07-python-app
+- Workflow path: `.github/workflows/ci.yml`
+- First passing run URL and source commit: https://github.com/UriPros/class07-python-app/actions/runs/35757726650 — commit `8dfa6aa679629cbad731e64f54cc19aaa510d8d4`
+- Actual unit-test result: job `test`, step *Source contract*: `Ran 5 tests` — `OK` (same 5 tests passed locally before pushing)
 
 ## Step 2 — Run only on pushes to main
 - Commit/run that installed the main-only trigger:
